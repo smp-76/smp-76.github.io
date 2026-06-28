@@ -1,17 +1,41 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-28",
   "brands": [
     {
       "id": "fereks",
       "name": "FEREKS",
       "url": "https://fereks.ru/",
-      "description": "Российский производитель светодиодного оборудования. Входит в IEK Group. Промышленные, уличные, офисные и архитектурные светильники."
+      "description": "Российский производитель. Входит в IEK Group. Промышленные, уличные, офисные, архитектурные светильники."
     },
     {
       "id": "luxcore",
       "name": "LUXCORE",
       "url": "https://luxcore.ru/",
-      "description": "Российский производитель высококачественных LED-светильников для промышленных объектов повышенной сложности."
+      "description": "Российский производитель LED-светильников для промышленных объектов повышенной сложности."
+    },
+    {
+      "id": "aruna",
+      "name": "ARUNA LED",
+      "url": "https://aruna-led.ru/",
+      "description": "Российский производитель архитектурных, промышленных и уличных LED-светильников."
+    },
+    {
+      "id": "plg",
+      "name": "PLG",
+      "url": "https://www.plgled.ru/",
+      "description": "Российский производитель, г. Ульяновск. Офисные, промышленные, уличные и линейные светильники."
+    },
+    {
+      "id": "aruna",
+      "name": "ARUNA LED",
+      "url": "https://aruna-led.ru/",
+      "description": "Российский производитель светодиодных светильников для промышленных, уличных и интерьерных применений."
+    },
+    {
+      "id": "plg",
+      "name": "PLG",
+      "url": "https://www.plgled.ru/",
+      "description": "Производитель PLG — светодиодные светильники для офисных, промышленных и уличных объектов. Производство в Ульяновске."
     }
   ],
   "series": [
@@ -23,8 +47,8 @@
       "category_name": "Архитектурное освещение",
       "power_min": 12,
       "power_max": 96,
-      "lm_min": 0,
-      "lm_max": 0,
+      "lm_min": null,
+      "lm_max": null,
       "ip": [
         "IP66"
       ],
@@ -984,29 +1008,6 @@
       ]
     },
     {
-      "id": "fereks-врк",
-      "brand": "FEREKS",
-      "series": "ВРК",
-      "category": "industrial",
-      "category_name": "Промышленное освещение",
-      "power_min": 555,
-      "power_max": 555,
-      "lm_min": 0,
-      "lm_max": 0,
-      "ip": [
-        "IP67"
-      ],
-      "kss": [],
-      "color_temp": [
-        "1"
-      ],
-      "explproof": false,
-      "sku_count": 3,
-      "url": "https://fereks.ru/catalog/",
-      "description": "",
-      "tags": []
-    },
-    {
       "id": "fereks-дву",
       "brand": "FEREKS",
       "series": "ДВУ",
@@ -1782,6 +1783,1350 @@
         "территория предприятия",
         "парковка"
       ]
+    },
+    {
+      "id": "aruna-",
+      "brand": "ARUNA",
+      "series": "Монохром АХП",
+      "category": "architectural",
+      "category_name": "Архитектурное освещение",
+      "power_min": 2,
+      "power_max": 180,
+      "lm_min": 3,
+      "lm_max": 9360,
+      "ip": [
+        "IP65",
+        "IP66",
+        "IP67"
+      ],
+      "kss": [
+        "10°",
+        "120°",
+        "12°",
+        "15°"
+      ],
+      "color_temp": [
+        "2700",
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 4462,
+      "description": "Архитектурные прожекторы ARUNA серии ARSLIM. Узкий угол, IP66, питание 12-24V DC. Применение: архитектурная подсветка фасадов.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-",
+      "brand": "ARUNA",
+      "series": "Монохром управляемый",
+      "category": "architectural",
+      "category_name": "Архитектурное освещение",
+      "power_min": 6,
+      "power_max": 36,
+      "lm_min": 420,
+      "lm_max": 2340,
+      "ip": [
+        "IP66",
+        "IP67"
+      ],
+      "kss": [
+        "10°",
+        "15°",
+        "20°",
+        "60°"
+      ],
+      "color_temp": [],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Светильники ARUNA серии Монохром управляемый.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-",
+      "brand": "ARUNA",
+      "series": "Цветное управляемое",
+      "category": "architectural",
+      "category_name": "Архитектурное освещение",
+      "power_min": 2,
+      "power_max": 86,
+      "lm_min": 70,
+      "lm_max": 900,
+      "ip": [
+        "IP66",
+        "IP67"
+      ],
+      "kss": [
+        "10°",
+        "120°",
+        "15°",
+        "20°"
+      ],
+      "color_temp": [],
+      "explproof": false,
+      "sku_count": 17,
+      "description": "Светильники ARUNA серии Цветное управляемое.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-lace",
+      "brand": "ARUNA",
+      "series": "LACE  монохром",
+      "category": "architectural",
+      "category_name": "Архитектурное освещение",
+      "power_min": 10,
+      "power_max": 10,
+      "lm_min": 260,
+      "lm_max": 290,
+      "ip": [
+        "IP67"
+      ],
+      "kss": [
+        "120°"
+      ],
+      "color_temp": [
+        "3000",
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 2,
+      "description": "Линейные LED-системы ARUNA LACE монохромные. Гибкие решения для акцентного и контурного освещения.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-lace",
+      "brand": "ARUNA",
+      "series": "LACE цветное управляемое",
+      "category": "architectural",
+      "category_name": "Архитектурное освещение",
+      "power_min": 15,
+      "power_max": 15,
+      "lm_min": 120,
+      "lm_max": 120,
+      "ip": [
+        "IP67"
+      ],
+      "kss": [
+        "120°"
+      ],
+      "color_temp": [],
+      "explproof": false,
+      "sku_count": 1,
+      "description": "Светильники ARUNA серии LACE цветное управляемое.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-",
+      "brand": "ARUNA",
+      "series": "Уличное",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 30,
+      "power_max": 200,
+      "lm_min": 4650,
+      "lm_max": 34000,
+      "ip": [
+        "IP65",
+        "IP66"
+      ],
+      "kss": [
+        "D",
+        "SH"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 129,
+      "description": "Уличные светильники ARUNA серии STREET. IP65, IK08, КСС D и SH. Применение: дороги, территории предприятий, парковки.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-",
+      "brand": "ARUNA",
+      "series": "Промышленное",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 15,
+      "power_max": 150,
+      "lm_min": 2100,
+      "lm_max": 24000,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "120°",
+        "15°",
+        "30°",
+        "60°"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 252,
+      "description": "Промышленные светильники ARUNA серии NEVIS. IP66, крепление поворотное или подвесное. Применение: производственные помещения, склады, цеха.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-",
+      "brand": "ARUNA",
+      "series": "Интерьерное",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 24,
+      "power_max": 60,
+      "lm_min": 2640,
+      "lm_max": 6600,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [
+        "D100",
+        "D120"
+      ],
+      "color_temp": [
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Линейные интерьерные светильники ARUNA серии INTER. IP20, для внутреннего освещения офисов, торговых и общественных пространств.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "plg-",
+      "brand": "PLG",
+      "series": "Квадратный светильник",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 595,
+      "power_max": 595,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 7,
+      "description": "Светильники PLG категории Квадратный светильник. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-u35",
+      "brand": "PLG",
+      "series": "Квадратный светильник с равномерной засветкой U35",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 595,
+      "power_max": 595,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 4,
+      "description": "Светильники PLG категории Квадратный светильник с равномерной засветкой U35. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-u",
+      "brand": "PLG",
+      "series": "Квадратный светильник с равномерной засветкой U",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 595,
+      "power_max": 595,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP54"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "description": "Светильники PLG категории Квадратный светильник с равномерной засветкой U. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-1200-600",
+      "brand": "PLG",
+      "series": "Офисный светильник 1200*600",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 50,
+      "power_max": 78,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP54"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 5,
+      "description": "Светильники PLG категории Офисный светильник 1200*600. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-1200-600",
+      "brand": "PLG",
+      "series": "Офисный светильник с равномерной засветкой 1200*600",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 16,
+      "power_max": 750,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP54"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 57,
+      "description": "Светильники PLG категории Офисный светильник с равномерной засветкой 1200*600. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-120",
+      "brand": "PLG",
+      "series": "Линейное соединение = 120р.",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 20,
+      "power_max": 75,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 15,
+      "description": "Светильники PLG категории Линейное соединение = 120р.. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-",
+      "brand": "PLG",
+      "series": "Линейные светильники прямоугольного сечения (стандарт)",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 20,
+      "power_max": 750,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 20,
+      "description": "Светильники PLG категории Линейные светильники прямоугольного сечения (стандарт). Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-",
+      "brand": "PLG",
+      "series": "Линейные светильники сечения трапеция",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 20,
+      "power_max": 750,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 12,
+      "description": "Светильники PLG категории Линейные светильники сечения трапеция. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-track-line",
+      "brand": "PLG",
+      "series": "Акцентный светильник серии TRACK LINE",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 43,
+      "power_max": 61,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 3,
+      "description": "Светильники PLG категории Акцентный светильник серии TRACK LINE. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-3---------------------------track",
+      "brand": "PLG",
+      "series": "Акцентный 3-х фазный светильник серии TRACK",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 10,
+      "power_max": 58,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 14,
+      "description": "Светильники PLG категории Акцентный 3-х фазный светильник серии TRACK. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-",
+      "brand": "PLG",
+      "series": "Промышленный светильник (алюминиевый корпус)",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 35,
+      "power_max": 500,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 9,
+      "description": "Светильники PLG категории Промышленный светильник (алюминиевый корпус). Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-prom-r",
+      "brand": "PLG",
+      "series": "Круглый Промышленный светильник серии PROM R",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 10,
+      "power_max": 240,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 27,
+      "description": "Светильники PLG категории Круглый Промышленный светильник серии PROM R. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-",
+      "brand": "PLG",
+      "series": "Светильники для подсобных и технических помещений ЖКХ",
+      "category": "other",
+      "category_name": "Прочее",
+      "power_min": 12,
+      "power_max": 500,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP65"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 18,
+      "description": "Светильники PLG категории Светильники для подсобных и технических помещений ЖКХ. Российский производитель, гарантия 5 лет.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "aruna-nevis",
+      "brand": "ARUNA LED",
+      "series": "NEVIS",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 15,
+      "power_max": 90,
+      "lm_min": 2100,
+      "lm_max": 12600,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 36,
+      "price_from": 5060,
+      "description": "Линейный промышленный светильник для промышленных объектов. IP66, широкий диапазон крепления. Применение: производство, склады, цеха.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-trivor",
+      "brand": "ARUNA LED",
+      "series": "TRIVOR",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 70,
+      "power_max": 150,
+      "lm_min": 11200,
+      "lm_max": 24000,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 216,
+      "price_from": 25960,
+      "description": "",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-street",
+      "brand": "ARUNA LED",
+      "series": "STREET",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 30,
+      "power_max": 150,
+      "lm_min": 4800,
+      "lm_max": 24000,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "D",
+        "S"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 15,
+      "price_from": 9770,
+      "description": "Консольный уличный светильник для дорог и территорий. IP65, IK08, закалённое стекло. Применение: дороги, парковки, территории предприятий.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-ultar",
+      "brand": "ARUNA LED",
+      "series": "ULTAR",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 30,
+      "power_max": 200,
+      "lm_min": 4650,
+      "lm_max": 34000,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "S"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 114,
+      "price_from": 21050,
+      "description": "Уличный светильник повышенной защиты. IP66, IK08. Применение: промышленные территории с повышенными требованиями к защите.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "aruna-inter",
+      "brand": "ARUNA LED",
+      "series": "INTER",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 24,
+      "power_max": 60,
+      "lm_min": 2640,
+      "lm_max": 6600,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [
+        "D100",
+        "D120"
+      ],
+      "color_temp": [
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "price_from": 9690,
+      "description": "Линейный интерьерный светильник. IP20. Применение: офисы, торговые помещения, административные здания.",
+      "tags": [],
+      "url": "https://aruna-led.ru/"
+    },
+    {
+      "id": "plg-plg-of-595",
+      "brand": "PLG",
+      "series": "PLG OF 595",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 58,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 7,
+      "description": "Офисный встраиваемый светильник 595×595 мм. IP20. Применение: офисы, административные здания, торговые помещения.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-of",
+      "brand": "PLG",
+      "series": "PLG OF",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 180,
+      "power_max": 595,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 37,
+      "description": "Серия PLG OF от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-of-595-1200",
+      "brand": "PLG",
+      "series": "PLG OF 595-1200",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 50,
+      "power_max": 78,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 4,
+      "description": "Офисный встраиваемый светильник 595×595 мм. IP20. Применение: офисы, административные здания, торговые помещения.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-of-595-180",
+      "brand": "PLG",
+      "series": "PLG OF 595-180",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 16,
+      "power_max": 25,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 4,
+      "description": "Офисный встраиваемый светильник 595×595 мм. IP20. Применение: офисы, административные здания, торговые помещения.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-of-rail",
+      "brand": "PLG",
+      "series": "PLG OF RAIL",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 50,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Серия PLG OF RAIL от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line-slim",
+      "brand": "PLG",
+      "series": "PLG Line Slim",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 1130,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 22,
+      "description": "Серия PLG Line Slim от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line-750",
+      "brand": "PLG",
+      "series": "PLG Line 750",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 16,
+      "power_max": 144,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 4,
+      "description": "Серия PLG Line 750 от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line-1000",
+      "brand": "PLG",
+      "series": "PLG Line 1000",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 21,
+      "power_max": 192,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 5,
+      "description": "Серия PLG Line 1000 от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line-1130",
+      "brand": "PLG",
+      "series": "PLG Line 1130",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 24,
+      "power_max": 30,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 2,
+      "description": "Серия PLG Line 1130 от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line",
+      "brand": "PLG",
+      "series": "PLG Line",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 53,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Серия PLG Line от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line-288led",
+      "brand": "PLG",
+      "series": "PLG Line 288led",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 53,
+      "power_max": 75,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 3,
+      "description": "Серия PLG Line 288led от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line-w",
+      "brand": "PLG",
+      "series": "PLG Line W",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 750,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 12,
+      "description": "Серия PLG Line W от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line-lens",
+      "brand": "PLG",
+      "series": "PLG Line Lens",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 288,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Серия PLG Line Lens от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-track-line",
+      "brand": "PLG",
+      "series": "PLG TRACK LINE",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 43,
+      "power_max": 61,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 3,
+      "description": "Серия PLG TRACK LINE от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-track",
+      "brand": "PLG",
+      "series": "PLG TRACK",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 30,
+      "power_max": 45,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 3,
+      "description": "Серия PLG TRACK от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-of-dl",
+      "brand": "PLG",
+      "series": "PLG OF DL",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 10,
+      "power_max": 30,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 5,
+      "description": "Серия PLG OF DL от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-pr-line",
+      "brand": "PLG",
+      "series": "PLG PR LINE",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 58,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 7,
+      "description": "Промышленный светильник подвесного монтажа. Применение: цеха, склады, производственные помещения.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-prom-r",
+      "brand": "PLG",
+      "series": "PLG PROM R",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 70,
+      "power_max": 240,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "description": "Промышленный светильник подвесного монтажа. Применение: цеха, склады, производственные помещения.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-street",
+      "brand": "PLG",
+      "series": "PLG Street",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 10,
+      "power_max": 200,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "4000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 9,
+      "description": "Серия PLG Street от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-street-pro",
+      "brand": "PLG",
+      "series": "PLG Street PRO",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 30,
+      "power_max": 165,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 7,
+      "description": "Серия PLG Street PRO от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-llo-305",
+      "brand": "PLG",
+      "series": "PLG LLO 305",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 18,
+      "power_max": 24,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 3,
+      "description": "Серия PLG LLO 305 от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-llo-380",
+      "brand": "PLG",
+      "series": "PLG LLO 380",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 24,
+      "power_max": 40,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 2,
+      "description": "Серия PLG LLO 380 от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-of-sb",
+      "brand": "PLG",
+      "series": "PLG OF SB",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 9,
+      "power_max": 9,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 2,
+      "description": "Серия PLG OF SB от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-line-med",
+      "brand": "PLG",
+      "series": "PLG Line Med",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 500,
+      "power_max": 500,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 2,
+      "description": "Серия PLG Line Med от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
+    },
+    {
+      "id": "plg-plg-llo-line-em",
+      "brand": "PLG",
+      "series": "PLG LLO Line EM",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 180,
+      "power_max": 300,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [],
+      "color_temp": [
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 2,
+      "description": "Серия PLG LLO Line EM от производителя PLG. Применение: офисные светильники.",
+      "tags": [],
+      "url": "https://www.plgled.ru/"
     }
   ]
 }
