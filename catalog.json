@@ -1,0 +1,1787 @@
+{
+  "updated": "2026-06-24",
+  "brands": [
+    {
+      "id": "fereks",
+      "name": "FEREKS",
+      "url": "https://fereks.ru/",
+      "description": "Российский производитель светодиодного оборудования. Входит в IEK Group. Промышленные, уличные, офисные и архитектурные светильники."
+    },
+    {
+      "id": "luxcore",
+      "name": "LUXCORE",
+      "url": "https://luxcore.ru/",
+      "description": "Российский производитель высококачественных LED-светильников для промышленных объектов повышенной сложности."
+    }
+  ],
+  "series": [
+    {
+      "id": "fereks-fwl",
+      "brand": "FEREKS",
+      "series": "FWL",
+      "category": "architectural",
+      "category_name": "Архитектурное освещение",
+      "power_min": 12,
+      "power_max": 96,
+      "lm_min": 0,
+      "lm_max": 0,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - косинусная 120˚",
+        "C120 - прозрачный",
+        "C120-F15",
+        "D60 - глубокая 60˚",
+        "F15 - концентрированная 15˚",
+        "F30 - концентрированная 30˚",
+        "Г60",
+        "К15"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 113,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Архитектурный прожектор для подсветки фасадов и декоративного освещения.",
+      "tags": []
+    },
+    {
+      "id": "fereks-fdbb",
+      "brand": "FEREKS",
+      "series": "FDBB",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 17,
+      "power_max": 17,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20",
+        "IP65"
+      ],
+      "kss": [
+        "C110 - косинусная 110˚",
+        "C110 - матовый",
+        "Д"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fdl",
+      "brand": "FEREKS",
+      "series": "FDL",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 22,
+      "power_max": 130,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP54"
+      ],
+      "kss": [
+        "C110 - косинусная 110˚",
+        "C110 - матовый",
+        "VW-специальная",
+        "Д",
+        "Д120 - прозрачный"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 31,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fhl",
+      "brand": "FEREKS",
+      "series": "FHL",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 43,
+      "power_max": 120,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP54"
+      ],
+      "kss": [
+        "C110 - косинусная 110˚",
+        "C120 - косинусная 120˚",
+        "C90 - микропризма"
+      ],
+      "color_temp": [
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 4,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fll",
+      "brand": "FEREKS",
+      "series": "FLL",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 40,
+      "power_max": 40,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40"
+      ],
+      "kss": [
+        "C110 - матовый",
+        "C90 - микропризма",
+        "Д"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 9,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-flt",
+      "brand": "FEREKS",
+      "series": "FLT",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 11,
+      "power_max": 60,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40"
+      ],
+      "kss": [
+        "C110 - косинусная 110˚",
+        "C110 - матовый",
+        "C90 - микропризма",
+        "Д"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 42,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-дво",
+      "brand": "FEREKS",
+      "series": "ДВО",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 18,
+      "power_max": 56,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20",
+        "IP65"
+      ],
+      "kss": [
+        "Г60",
+        "Д",
+        "Д110 - косинусная 110˚",
+        "Д110 - матовый",
+        "Д120 - прозрачный",
+        "Д90 - косинусная 90˚",
+        "К15",
+        "К40 - концентрированная 40˚"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 49,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-дсб",
+      "brand": "FEREKS",
+      "series": "ДСБ",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 14,
+      "power_max": 40,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20",
+        "IP40"
+      ],
+      "kss": [
+        "Д",
+        "Д110 - косинусная 110˚",
+        "Д110 - матовый"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 39,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ссв",
+      "brand": "FEREKS",
+      "series": "ССВ",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 14,
+      "power_max": 42,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP20",
+        "IP40",
+        "IP54"
+      ],
+      "kss": [
+        "Д",
+        "Д110 - косинусная 110˚",
+        "Д110 - матовый",
+        "Д90 - косинусная 90˚",
+        "Д90 - микропризма"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "6500"
+      ],
+      "explproof": false,
+      "sku_count": 168,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-fbl",
+      "brand": "FEREKS",
+      "series": "Ex-FBL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 35,
+      "power_max": 52,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "F15 - концентрированная 15˚"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 8,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-ffl",
+      "brand": "FEREKS",
+      "series": "Ex-FFL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 300,
+      "power_max": 300,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "F30 - концентрированная 30˚"
+      ],
+      "color_temp": [
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 1,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-fhb",
+      "brand": "FEREKS",
+      "series": "Ex-FHB",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 70,
+      "power_max": 230,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C110 - матовый",
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "F15 - концентрированная 15˚",
+        "F30 - концентрированная 30˚"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 32,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Взрывозащищённый подвесной светильник. Маркировка Ex. Применение: нефтегазовые объекты, химические производства, взрывоопасные зоны.",
+      "tags": [
+        "нефтегаз",
+        "химия",
+        "взрывоопасная зона"
+      ]
+    },
+    {
+      "id": "fereks-ex-fpl",
+      "brand": "FEREKS",
+      "series": "Ex-FPL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 12,
+      "power_max": 82,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C110 - матовый",
+        "Д"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 12,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Взрывозащищённый линейный светильник для освещения производственных помещений с классом взрывоопасности.",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-fsl",
+      "brand": "FEREKS",
+      "series": "Ex-FSL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 35,
+      "power_max": 52,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "F30 - концентрированная 30˚",
+        "W - широкая осевая",
+        "WL - широкая боковая"
+      ],
+      "color_temp": [
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 11,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-ftn",
+      "brand": "FEREKS",
+      "series": "Ex-FTN",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 27,
+      "power_max": 60,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "S-специальная"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 8,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-fwl",
+      "brand": "FEREKS",
+      "series": "Ex-FWL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 14,
+      "power_max": 53,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚"
+      ],
+      "color_temp": [
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 7,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-дву",
+      "brand": "FEREKS",
+      "series": "Ex-ДВУ",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 78,
+      "power_max": 130,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Д120 - прозрачный"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 5,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-дку",
+      "brand": "FEREKS",
+      "series": "Ex-ДКУ",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 68,
+      "power_max": 200,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Г60",
+        "Д120 - прозрачный",
+        "К30 - концентрированная 30˚",
+        "Ш2-широкая боковая",
+        "Ш3-широкая осевая"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 14,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Взрывозащищённый консольный светильник для наружного освещения взрывоопасных зон.",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-дпп",
+      "brand": "FEREKS",
+      "series": "Ex-ДПП",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 68,
+      "power_max": 260,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Г60",
+        "Д120 - косинусная 120˚",
+        "Д120 - прозрачный",
+        "К30 - концентрированная 30˚",
+        "Ш2-широкая боковая"
+      ],
+      "color_temp": [
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 21,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ex-дсо",
+      "brand": "FEREKS",
+      "series": "Ex-ДСО",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 24,
+      "power_max": 65,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Д110 - матовый",
+        "Д120 - косинусная 120˚",
+        "Д120 - прозрачный"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": true,
+      "sku_count": 14,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fa",
+      "brand": "FEREKS",
+      "series": "FA",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 20,
+      "power_max": 20,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "С"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 11,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fbl",
+      "brand": "FEREKS",
+      "series": "FBL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 35,
+      "power_max": 52,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - косинусная 120˚",
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "F15 - концентрированная 15˚",
+        "F30 - концентрированная 30˚",
+        "WL - широкая боковая",
+        "Г60",
+        "К15",
+        "Ш3-широкая осевая",
+        "Ш4-широкая осевая"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 25,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ffe",
+      "brand": "FEREKS",
+      "series": "FFE",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 100,
+      "power_max": 100,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "F15 - концентрированная 15˚",
+        "F30 - концентрированная 30˚",
+        "WA - широкая осевая",
+        "WL - широкая боковая"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 11,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-ffl",
+      "brand": "FEREKS",
+      "series": "FFL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 230,
+      "power_max": 1200,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "A-ассиметричная",
+        "A1-ассиметричная",
+        "C110 - косинусная 110˚",
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "F15 - концентрированная 15˚",
+        "F30 - концентрированная 30˚",
+        "WL - широкая боковая",
+        "Г60",
+        "К15",
+        "Ш3-широкая осевая"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 66,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Прожектор светодиодный для освещения больших площадей и высоких объектов. Применение: стадионы, открытые склады, промышленные площадки.",
+      "tags": [
+        "стадион",
+        "открытая площадка"
+      ]
+    },
+    {
+      "id": "fereks-ffl-sport",
+      "brand": "FEREKS",
+      "series": "FFL-sport",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 230,
+      "power_max": 1200,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "F15 - концентрированная 15˚",
+        "F30 - концентрированная 30˚",
+        "Г60",
+        "К15"
+      ],
+      "color_temp": [
+        "5000",
+        "5700"
+      ],
+      "explproof": false,
+      "sku_count": 17,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fhb",
+      "brand": "FEREKS",
+      "series": "FHB",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 70,
+      "power_max": 920,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP65",
+        "IP66"
+      ],
+      "kss": [
+        "C110 - косинусная 110˚",
+        "C110 - матовый",
+        "C120 - косинусная 120˚",
+        "C120 - прозрачный",
+        "C90 - косинусная 90˚",
+        "C90 - микропризма",
+        "D60 - глубокая 60˚",
+        "F15 - концентрированная 15˚",
+        "F30 - концентрированная 30˚",
+        "Г60",
+        "Г85",
+        "Д90-прозрачный рассеиватель+линзы",
+        "К15"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000",
+        "5700"
+      ],
+      "explproof": false,
+      "sku_count": 243,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Подвесной промышленный светильник для высоких пролётов. Замена ДРЛ/ДНаТ/ЖСП. Применение: цеха, склады, производственные помещения с высотой потолка от 6 м.",
+      "tags": [
+        "цех",
+        "склад",
+        "производство"
+      ]
+    },
+    {
+      "id": "fereks-fhb-для-высоких-температур",
+      "brand": "FEREKS",
+      "series": "FHB для высоких температур",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 120,
+      "power_max": 190,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "F40-концентрированная 40˚"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fpl",
+      "brand": "FEREKS",
+      "series": "FPL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 12,
+      "power_max": 82,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP65",
+        "IP66"
+      ],
+      "kss": [
+        "C110 - косинусная 110˚",
+        "C110 - матовый",
+        "Д"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 39,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Линейный промышленный светильник. Применение: освещение длинных пролётов, конвейерных линий, железнодорожных объектов.",
+      "tags": []
+    },
+    {
+      "id": "fereks-fwl-gp",
+      "brand": "FEREKS",
+      "series": "FWL GP",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 100,
+      "power_max": 100,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "К15-Ш"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 4,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-lfl",
+      "brand": "FEREKS",
+      "series": "LFL",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 460,
+      "power_max": 480,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "F20 - концентрированная 20˚",
+        "F40-концентрированная 40˚"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 7,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-lfl-sport",
+      "brand": "FEREKS",
+      "series": "LFL-sport",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 460,
+      "power_max": 460,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "F20 - концентрированная 20˚",
+        "К40 - концентрированная 40˚"
+      ],
+      "color_temp": [
+        "5700"
+      ],
+      "explproof": false,
+      "sku_count": 2,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-wheel",
+      "brand": "FEREKS",
+      "series": "Wheel",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 100,
+      "power_max": 230,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "D60 - глубокая 60˚",
+        "Г60"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 255,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Современный подвесной промышленный светильник круглой формы. Высокая эффективность (лм/Вт). Применение: склады, цеха, логистические комплексы.",
+      "tags": [
+        "склад",
+        "логистика",
+        "производство"
+      ]
+    },
+    {
+      "id": "fereks-врк",
+      "brand": "FEREKS",
+      "series": "ВРК",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 555,
+      "power_max": 555,
+      "lm_min": 0,
+      "lm_max": 0,
+      "ip": [
+        "IP67"
+      ],
+      "kss": [],
+      "color_temp": [
+        "1"
+      ],
+      "explproof": false,
+      "sku_count": 3,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-дву",
+      "brand": "FEREKS",
+      "series": "ДВУ",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 78,
+      "power_max": 130,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Д110 - матовый",
+        "Д120 - прозрачный"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 9,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Светильник для АЗС и навесов. Монтаж в потолок навеса. Применение: автозаправочные станции, крытые парковки.",
+      "tags": []
+    },
+    {
+      "id": "fereks-дпп",
+      "brand": "FEREKS",
+      "series": "ДПП",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 68,
+      "power_max": 260,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Г60",
+        "Д110 - косинусная 110˚",
+        "Д110 - матовый",
+        "Д120 - косинусная 120˚",
+        "Д120 - прозрачный",
+        "К15",
+        "К30 - концентрированная 30˚",
+        "Ш2-широкая боковая",
+        "Ш3-широкая осевая",
+        "Ш4-широкая осевая"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 136,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Прожектор промышленный подвесной. Применение: открытые площадки, склады открытого хранения, промышленные территории.",
+      "tags": [
+        "открытая площадка",
+        "склад"
+      ]
+    },
+    {
+      "id": "fereks-дсо",
+      "brand": "FEREKS",
+      "series": "ДСО",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 12,
+      "power_max": 100,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP65",
+        "IP66"
+      ],
+      "kss": [
+        "25х100",
+        "Д",
+        "Д110 - косинусная 110˚",
+        "Д110 - матовый",
+        "Д120 - косинусная 120˚",
+        "Д120 - прозрачный",
+        "Д90 - косинусная 90˚",
+        "Д90 - микропризма"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 319,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Универсальный промышленный светильник накладного/подвесного монтажа. Широкий диапазон мощностей. Применение: производственные и складские помещения.",
+      "tags": [
+        "производство",
+        "склад"
+      ]
+    },
+    {
+      "id": "fereks-дсо-2.0",
+      "brand": "FEREKS",
+      "series": "ДСО 2.0",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 20,
+      "power_max": 35,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP40",
+        "IP66"
+      ],
+      "kss": [
+        "Д",
+        "Д110 - матовый"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 6,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-сск",
+      "brand": "FEREKS",
+      "series": "ССК",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 26,
+      "power_max": 35,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д110 - матовый",
+        "Д120 - прозрачный"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 15,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-alf-a2",
+      "brand": "FEREKS",
+      "series": "ALF-A2",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 50,
+      "power_max": 65,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "W5 - широкая боковая",
+        "WA - широкая осевая"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 4,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-alf-a3",
+      "brand": "FEREKS",
+      "series": "ALF-A3",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 80,
+      "power_max": 145,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "W5 - широкая боковая"
+      ],
+      "color_temp": [
+        "2700",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-alf-c1",
+      "brand": "FEREKS",
+      "series": "ALF-C1",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 22,
+      "power_max": 35,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Ш4-широкая осевая"
+      ],
+      "color_temp": [
+        "2700",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-alf-e1",
+      "brand": "FEREKS",
+      "series": "ALF-E1",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 85,
+      "power_max": 190,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "W - широкая осевая",
+        "W5 - широкая боковая",
+        "WL - широкая боковая"
+      ],
+      "color_temp": [
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 9,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-alf-g1",
+      "brand": "FEREKS",
+      "series": "ALF-G1",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 38,
+      "power_max": 58,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "WA - широкая осевая"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-amg",
+      "brand": "FEREKS",
+      "series": "AMG",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 90,
+      "power_max": 220,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "W - широкая осевая",
+        "W5 - широкая боковая",
+        "W6 - широкая боковая",
+        "WA - широкая осевая",
+        "WL - широкая боковая"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 21,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-atr",
+      "brand": "FEREKS",
+      "series": "ATR",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 85,
+      "power_max": 150,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "W5 - широкая боковая",
+        "WA - широкая осевая",
+        "WL - широкая боковая",
+        "Ш2-широкая боковая",
+        "Ш5-широкая боковая"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-blr",
+      "brand": "FEREKS",
+      "series": "BLR",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 58,
+      "power_max": 90,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "WA - широкая осевая"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fla",
+      "brand": "FEREKS",
+      "series": "FLA",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 38,
+      "power_max": 180,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "W - широкая осевая",
+        "W5 - широкая боковая",
+        "W6 - широкая боковая",
+        "WA - широкая осевая",
+        "WL - широкая боковая",
+        "Г60",
+        "Ш2-широкая боковая",
+        "Ш3-широкая осевая",
+        "Ш4-широкая осевая",
+        "Ш5-широкая боковая"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 90,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Консольный уличный светильник нового поколения. Высокая эффективность, широкий типоряд мощностей.",
+      "tags": [
+        "дорога",
+        "улица",
+        "территория предприятия"
+      ]
+    },
+    {
+      "id": "fereks-fsl",
+      "brand": "FEREKS",
+      "series": "FSL",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 33,
+      "power_max": 80,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C120 - прозрачный",
+        "F30 - концентрированная 30˚",
+        "W - широкая осевая",
+        "W5 - широкая боковая",
+        "WA - широкая осевая",
+        "WL - широкая боковая",
+        "Г60",
+        "К15",
+        "Ш2-широкая боковая",
+        "Ш3-широкая осевая",
+        "Ш4-широкая осевая"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 42,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-дку",
+      "brand": "FEREKS",
+      "series": "ДКУ",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 68,
+      "power_max": 260,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "F30 - концентрированная 30˚",
+        "Г60",
+        "Д110 - матовый",
+        "Д120 - прозрачный",
+        "К15",
+        "К30 - концентрированная 30˚",
+        "Ш",
+        "Ш2-широкая боковая",
+        "Ш2Ш3 - широкая боковая/широкая осевая",
+        "Ш3-широкая осевая",
+        "Ш4-широкая осевая"
+      ],
+      "color_temp": [
+        "2700",
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 156,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Консольный уличный светильник. Применение: дороги, улицы, парковки, территории предприятий.",
+      "tags": [
+        "дорога",
+        "улица",
+        "парковка"
+      ]
+    },
+    {
+      "id": "fereks-alf-f1",
+      "brand": "FEREKS",
+      "series": "ALF-F1",
+      "category": "park",
+      "category_name": "Парковое освещение",
+      "power_min": 40,
+      "power_max": 40,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "С"
+      ],
+      "color_temp": [
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 1,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-alf-f2",
+      "brand": "FEREKS",
+      "series": "ALF-F2",
+      "category": "park",
+      "category_name": "Парковое освещение",
+      "power_min": 40,
+      "power_max": 40,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "С"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 2,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "fereks-fsp",
+      "brand": "FEREKS",
+      "series": "FSP",
+      "category": "park",
+      "category_name": "Парковое освещение",
+      "power_min": 20,
+      "power_max": 80,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IР44/IР66"
+      ],
+      "kss": [
+        "W5 - широкая боковая",
+        "W6 - широкая боковая",
+        "WA - широкая осевая",
+        "Ш4-широкая осевая",
+        "Ш6 - широкая боковая"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 90,
+      "url": "https://fereks.ru/catalog/",
+      "description": "Парковый/садовый светильник. Применение: аллеи, скверы, территории предприятий.",
+      "tags": []
+    },
+    {
+      "id": "fereks-дту",
+      "brand": "FEREKS",
+      "series": "ДТУ",
+      "category": "park",
+      "category_name": "Парковое освещение",
+      "power_min": 40,
+      "power_max": 56,
+      "lm_min": null,
+      "lm_max": null,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "C110 - матовый",
+        "S-специальная",
+        "Д110 - матовый",
+        "С"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 16,
+      "url": "https://fereks.ru/catalog/",
+      "description": "",
+      "tags": []
+    },
+    {
+      "id": "luxcore-primum-s",
+      "brand": "LUXCORE",
+      "series": "Primum-S",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 110,
+      "power_max": 150,
+      "lm_min": 15950,
+      "lm_max": 24000,
+      "kss": [
+        "120",
+        "60",
+        "90"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "ip": [
+        "IP65"
+      ],
+      "explproof": false,
+      "sku_count": 200,
+      "price_from": 13892,
+      "url": "https://luxcore.ru/",
+      "description": "Промышленный подвесной светильник среднего ряда. Применение: склады, производственные помещения, логистические центры.",
+      "tags": [
+        "склад",
+        "производство",
+        "логистика"
+      ]
+    },
+    {
+      "id": "luxcore-primum-m",
+      "brand": "LUXCORE",
+      "series": "Primum-M",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 160,
+      "power_max": 230,
+      "lm_min": 23200,
+      "lm_max": 36800,
+      "kss": [
+        "120",
+        "60",
+        "90"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "ip": [
+        "IP65"
+      ],
+      "explproof": false,
+      "sku_count": 320,
+      "price_from": 17218,
+      "url": "https://luxcore.ru/",
+      "description": "Промышленный подвесной светильник для объектов с высотой потолка 8–14 м. Повышенная мощность и световой поток.",
+      "tags": [
+        "производство",
+        "цех"
+      ]
+    },
+    {
+      "id": "luxcore-primum-l",
+      "brand": "LUXCORE",
+      "series": "Primum-L",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 240,
+      "power_max": 300,
+      "lm_min": 34800,
+      "lm_max": 48000,
+      "kss": [
+        "120",
+        "60",
+        "90"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "ip": [
+        "IP65"
+      ],
+      "explproof": false,
+      "sku_count": 280,
+      "price_from": 25653,
+      "url": "https://luxcore.ru/",
+      "description": "Мощный промышленный светильник для высоких пролётов от 14 м. Применение: металлургия, судостроение, крупные производственные цеха.",
+      "tags": [
+        "металлургия",
+        "судостроение",
+        "крупный цех"
+      ]
+    },
+    {
+      "id": "luxcore-linkor",
+      "brand": "LUXCORE",
+      "series": "Linkor",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 38,
+      "power_max": 90,
+      "lm_min": 4560,
+      "lm_max": 14850,
+      "kss": [
+        "110",
+        "120",
+        "90"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "ip": [
+        "IP65"
+      ],
+      "explproof": false,
+      "sku_count": 180,
+      "price_from": 6087,
+      "url": "https://luxcore.ru/",
+      "description": "Линейный светильник для освещения длинных пролётов. Применение: конвейерные линии, железнодорожные объекты, тоннели.",
+      "tags": [
+        "конвейер",
+        "ж/д объект",
+        "тоннель"
+      ]
+    },
+    {
+      "id": "luxcore-luxyard",
+      "brand": "LUXCORE",
+      "series": "LuxYard",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 60,
+      "power_max": 120,
+      "lm_min": 9600,
+      "lm_max": 19200,
+      "kss": [
+        "WA ш/осевая",
+        "WL ш/боковая"
+      ],
+      "color_temp": [
+        "5000"
+      ],
+      "ip": [
+        "IP65"
+      ],
+      "explproof": false,
+      "sku_count": 6,
+      "price_from": 11956,
+      "url": "https://luxcore.ru/",
+      "description": "Консольный уличный светильник для территорий предприятий, парковок и дорог.",
+      "tags": [
+        "дорога",
+        "территория предприятия",
+        "парковка"
+      ]
+    }
+  ]
+}
