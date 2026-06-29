@@ -1,11 +1,17 @@
 {
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "brands": [
     {
       "id": "fereks",
       "name": "FEREKS",
       "url": "https://fereks.ru/",
       "description": "Российский производитель. Входит в IEK Group. Промышленные, уличные, офисные, архитектурные светильники."
+    },
+    {
+      "id": "ledel",
+      "name": "LEDEL",
+      "url": "https://ledel.ru/",
+      "description": "Российский производитель светодиодных светильников. Входит в группу компаний IEK вместе с FEREKS. Специализация: уличное, промышленное и коммерческое освещение."
     },
     {
       "id": "luxcore",
@@ -24,18 +30,6 @@
       "name": "PLG",
       "url": "https://www.plgled.ru/",
       "description": "Российский производитель, г. Ульяновск. Офисные, промышленные, уличные и линейные светильники."
-    },
-    {
-      "id": "aruna",
-      "name": "ARUNA LED",
-      "url": "https://aruna-led.ru/",
-      "description": "Российский производитель светодиодных светильников для промышленных, уличных и интерьерных применений."
-    },
-    {
-      "id": "plg",
-      "name": "PLG",
-      "url": "https://www.plgled.ru/",
-      "description": "Производитель PLG — светодиодные светильники для офисных, промышленных и уличных объектов. Производство в Ульяновске."
     }
   ],
   "series": [
@@ -69,7 +63,6 @@
       ],
       "explproof": false,
       "sku_count": 113,
-      "url": "https://fereks.ru/catalog/",
       "description": "Архитектурный прожектор для подсветки фасадов и декоративного освещения.",
       "tags": []
     },
@@ -99,7 +92,6 @@
       ],
       "explproof": false,
       "sku_count": 8,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -131,7 +123,6 @@
       ],
       "explproof": false,
       "sku_count": 31,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -158,7 +149,6 @@
       ],
       "explproof": false,
       "sku_count": 4,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -187,7 +177,6 @@
       ],
       "explproof": false,
       "sku_count": 9,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -217,7 +206,6 @@
       ],
       "explproof": false,
       "sku_count": 42,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -252,7 +240,6 @@
       ],
       "explproof": false,
       "sku_count": 49,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -282,7 +269,6 @@
       ],
       "explproof": false,
       "sku_count": 39,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -316,7 +302,6 @@
       ],
       "explproof": false,
       "sku_count": 168,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -344,7 +329,6 @@
       ],
       "explproof": true,
       "sku_count": 8,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -369,7 +353,6 @@
       ],
       "explproof": true,
       "sku_count": 1,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -399,7 +382,6 @@
       ],
       "explproof": true,
       "sku_count": 32,
-      "url": "https://fereks.ru/catalog/",
       "description": "Взрывозащищённый подвесной светильник. Маркировка Ex. Применение: нефтегазовые объекты, химические производства, взрывоопасные зоны.",
       "tags": [
         "нефтегаз",
@@ -430,7 +412,6 @@
       ],
       "explproof": true,
       "sku_count": 12,
-      "url": "https://fereks.ru/catalog/",
       "description": "Взрывозащищённый линейный светильник для освещения производственных помещений с классом взрывоопасности.",
       "tags": []
     },
@@ -459,7 +440,6 @@
       ],
       "explproof": true,
       "sku_count": 11,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -485,7 +465,6 @@
       ],
       "explproof": true,
       "sku_count": 8,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -511,7 +490,6 @@
       ],
       "explproof": true,
       "sku_count": 7,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -537,7 +515,6 @@
       ],
       "explproof": true,
       "sku_count": 5,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -567,7 +544,6 @@
       ],
       "explproof": true,
       "sku_count": 14,
-      "url": "https://fereks.ru/catalog/",
       "description": "Взрывозащищённый консольный светильник для наружного освещения взрывоопасных зон.",
       "tags": []
     },
@@ -596,7 +572,6 @@
       ],
       "explproof": true,
       "sku_count": 21,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -624,7 +599,6 @@
       ],
       "explproof": true,
       "sku_count": 14,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -651,7 +625,6 @@
       ],
       "explproof": false,
       "sku_count": 11,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -687,7 +660,6 @@
       ],
       "explproof": false,
       "sku_count": 25,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -718,7 +690,6 @@
       ],
       "explproof": false,
       "sku_count": 11,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -755,7 +726,6 @@
       ],
       "explproof": false,
       "sku_count": 66,
-      "url": "https://fereks.ru/catalog/",
       "description": "Прожектор светодиодный для освещения больших площадей и высоких объектов. Применение: стадионы, открытые склады, промышленные площадки.",
       "tags": [
         "стадион",
@@ -789,7 +759,6 @@
       ],
       "explproof": false,
       "sku_count": 17,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -830,7 +799,6 @@
       ],
       "explproof": false,
       "sku_count": 243,
-      "url": "https://fereks.ru/catalog/",
       "description": "Подвесной промышленный светильник для высоких пролётов. Замена ДРЛ/ДНаТ/ЖСП. Применение: цеха, склады, производственные помещения с высотой потолка от 6 м.",
       "tags": [
         "цех",
@@ -862,7 +830,6 @@
       ],
       "explproof": false,
       "sku_count": 10,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -892,7 +859,6 @@
       ],
       "explproof": false,
       "sku_count": 39,
-      "url": "https://fereks.ru/catalog/",
       "description": "Линейный промышленный светильник. Применение: освещение длинных пролётов, конвейерных линий, железнодорожных объектов.",
       "tags": []
     },
@@ -918,13 +884,12 @@
       ],
       "explproof": false,
       "sku_count": 4,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
     {
-      "id": "fereks-lfl",
-      "brand": "FEREKS",
+      "id": "ledel-lfl",
+      "brand": "LEDEL",
       "series": "LFL",
       "category": "industrial",
       "category_name": "Промышленное освещение",
@@ -945,13 +910,12 @@
       ],
       "explproof": false,
       "sku_count": 7,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
     {
-      "id": "fereks-lfl-sport",
-      "brand": "FEREKS",
+      "id": "ledel-lfl-sport",
+      "brand": "LEDEL",
       "series": "LFL-sport",
       "category": "industrial",
       "category_name": "Промышленное освещение",
@@ -971,7 +935,6 @@
       ],
       "explproof": false,
       "sku_count": 2,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -999,7 +962,6 @@
       ],
       "explproof": false,
       "sku_count": 255,
-      "url": "https://fereks.ru/catalog/",
       "description": "Современный подвесной промышленный светильник круглой формы. Высокая эффективность (лм/Вт). Применение: склады, цеха, логистические комплексы.",
       "tags": [
         "склад",
@@ -1030,7 +992,6 @@
       ],
       "explproof": false,
       "sku_count": 9,
-      "url": "https://fereks.ru/catalog/",
       "description": "Светильник для АЗС и навесов. Монтаж в потолок навеса. Применение: автозаправочные станции, крытые парковки.",
       "tags": []
     },
@@ -1066,7 +1027,6 @@
       ],
       "explproof": false,
       "sku_count": 136,
-      "url": "https://fereks.ru/catalog/",
       "description": "Прожектор промышленный подвесной. Применение: открытые площадки, склады открытого хранения, промышленные территории.",
       "tags": [
         "открытая площадка",
@@ -1104,7 +1064,6 @@
       ],
       "explproof": false,
       "sku_count": 319,
-      "url": "https://fereks.ru/catalog/",
       "description": "Универсальный промышленный светильник накладного/подвесного монтажа. Широкий диапазон мощностей. Применение: производственные и складские помещения.",
       "tags": [
         "производство",
@@ -1136,7 +1095,6 @@
       ],
       "explproof": false,
       "sku_count": 6,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1163,7 +1121,6 @@
       ],
       "explproof": false,
       "sku_count": 15,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1191,7 +1148,6 @@
       ],
       "explproof": false,
       "sku_count": 4,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1219,7 +1175,6 @@
       ],
       "explproof": false,
       "sku_count": 10,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1246,7 +1201,6 @@
       ],
       "explproof": false,
       "sku_count": 10,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1273,7 +1227,6 @@
       ],
       "explproof": false,
       "sku_count": 9,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1300,7 +1253,6 @@
       ],
       "explproof": false,
       "sku_count": 8,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1330,7 +1282,6 @@
       ],
       "explproof": false,
       "sku_count": 21,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1360,7 +1311,6 @@
       ],
       "explproof": false,
       "sku_count": 8,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1386,7 +1336,6 @@
       ],
       "explproof": false,
       "sku_count": 8,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1422,7 +1371,6 @@
       ],
       "explproof": false,
       "sku_count": 90,
-      "url": "https://fereks.ru/catalog/",
       "description": "Консольный уличный светильник нового поколения. Высокая эффективность, широкий типоряд мощностей.",
       "tags": [
         "дорога",
@@ -1463,7 +1411,6 @@
       ],
       "explproof": false,
       "sku_count": 42,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1501,7 +1448,6 @@
       ],
       "explproof": false,
       "sku_count": 156,
-      "url": "https://fereks.ru/catalog/",
       "description": "Консольный уличный светильник. Применение: дороги, улицы, парковки, территории предприятий.",
       "tags": [
         "дорога",
@@ -1530,7 +1476,6 @@
       ],
       "explproof": false,
       "sku_count": 1,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1556,7 +1501,6 @@
       ],
       "explproof": false,
       "sku_count": 2,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1587,7 +1531,6 @@
       ],
       "explproof": false,
       "sku_count": 90,
-      "url": "https://fereks.ru/catalog/",
       "description": "Парковый/садовый светильник. Применение: аллеи, скверы, территории предприятий.",
       "tags": []
     },
@@ -1617,7 +1560,6 @@
       ],
       "explproof": false,
       "sku_count": 16,
-      "url": "https://fereks.ru/catalog/",
       "description": "",
       "tags": []
     },
@@ -1646,7 +1588,6 @@
       "explproof": false,
       "sku_count": 200,
       "price_from": 13892,
-      "url": "https://luxcore.ru/",
       "description": "Промышленный подвесной светильник среднего ряда. Применение: склады, производственные помещения, логистические центры.",
       "tags": [
         "склад",
@@ -1679,7 +1620,6 @@
       "explproof": false,
       "sku_count": 320,
       "price_from": 17218,
-      "url": "https://luxcore.ru/",
       "description": "Промышленный подвесной светильник для объектов с высотой потолка 8–14 м. Повышенная мощность и световой поток.",
       "tags": [
         "производство",
@@ -1711,7 +1651,6 @@
       "explproof": false,
       "sku_count": 280,
       "price_from": 25653,
-      "url": "https://luxcore.ru/",
       "description": "Мощный промышленный светильник для высоких пролётов от 14 м. Применение: металлургия, судостроение, крупные производственные цеха.",
       "tags": [
         "металлургия",
@@ -1745,7 +1684,6 @@
       "explproof": false,
       "sku_count": 180,
       "price_from": 6087,
-      "url": "https://luxcore.ru/",
       "description": "Линейный светильник для освещения длинных пролётов. Применение: конвейерные линии, железнодорожные объекты, тоннели.",
       "tags": [
         "конвейер",
@@ -1776,7 +1714,6 @@
       "explproof": false,
       "sku_count": 6,
       "price_from": 11956,
-      "url": "https://luxcore.ru/",
       "description": "Консольный уличный светильник для территорий предприятий, парковок и дорог.",
       "tags": [
         "дорога",
@@ -1786,7 +1723,7 @@
     },
     {
       "id": "aruna-",
-      "brand": "ARUNA",
+      "brand": "ARUNA LED",
       "series": "Монохром АХП",
       "category": "architectural",
       "category_name": "Архитектурное освещение",
@@ -1814,12 +1751,11 @@
       "explproof": false,
       "sku_count": 4462,
       "description": "Архитектурные прожекторы ARUNA серии ARSLIM. Узкий угол, IP66, питание 12-24V DC. Применение: архитектурная подсветка фасадов.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-",
-      "brand": "ARUNA",
+      "brand": "ARUNA LED",
       "series": "Монохром управляемый",
       "category": "architectural",
       "category_name": "Архитектурное освещение",
@@ -1841,12 +1777,11 @@
       "explproof": false,
       "sku_count": 8,
       "description": "Светильники ARUNA серии Монохром управляемый.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-",
-      "brand": "ARUNA",
+      "brand": "ARUNA LED",
       "series": "Цветное управляемое",
       "category": "architectural",
       "category_name": "Архитектурное освещение",
@@ -1868,12 +1803,11 @@
       "explproof": false,
       "sku_count": 17,
       "description": "Светильники ARUNA серии Цветное управляемое.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-lace",
-      "brand": "ARUNA",
+      "brand": "ARUNA LED",
       "series": "LACE  монохром",
       "category": "architectural",
       "category_name": "Архитектурное освещение",
@@ -1894,12 +1828,11 @@
       "explproof": false,
       "sku_count": 2,
       "description": "Линейные LED-системы ARUNA LACE монохромные. Гибкие решения для акцентного и контурного освещения.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-lace",
-      "brand": "ARUNA",
+      "brand": "ARUNA LED",
       "series": "LACE цветное управляемое",
       "category": "architectural",
       "category_name": "Архитектурное освещение",
@@ -1917,12 +1850,11 @@
       "explproof": false,
       "sku_count": 1,
       "description": "Светильники ARUNA серии LACE цветное управляемое.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-",
-      "brand": "ARUNA",
+      "brand": "ARUNA LED",
       "series": "Уличное",
       "category": "outdoor",
       "category_name": "Наружное освещение",
@@ -1946,12 +1878,11 @@
       "explproof": false,
       "sku_count": 129,
       "description": "Уличные светильники ARUNA серии STREET. IP65, IK08, КСС D и SH. Применение: дороги, территории предприятий, парковки.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-",
-      "brand": "ARUNA",
+      "brand": "ARUNA LED",
       "series": "Промышленное",
       "category": "industrial",
       "category_name": "Промышленное освещение",
@@ -1976,12 +1907,11 @@
       "explproof": false,
       "sku_count": 252,
       "description": "Промышленные светильники ARUNA серии NEVIS. IP66, крепление поворотное или подвесное. Применение: производственные помещения, склады, цеха.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-",
-      "brand": "ARUNA",
+      "brand": "ARUNA LED",
       "series": "Интерьерное",
       "category": "indoor",
       "category_name": "Внутреннее освещение",
@@ -2002,8 +1932,7 @@
       "explproof": false,
       "sku_count": 8,
       "description": "Линейные интерьерные светильники ARUNA серии INTER. IP20, для внутреннего освещения офисов, торговых и общественных пространств.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "plg-",
@@ -2029,8 +1958,7 @@
       "explproof": false,
       "sku_count": 7,
       "description": "Светильники PLG категории Квадратный светильник. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-u35",
@@ -2056,8 +1984,7 @@
       "explproof": false,
       "sku_count": 4,
       "description": "Светильники PLG категории Квадратный светильник с равномерной засветкой U35. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-u",
@@ -2082,8 +2009,7 @@
       "explproof": false,
       "sku_count": 10,
       "description": "Светильники PLG категории Квадратный светильник с равномерной засветкой U. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-1200-600",
@@ -2108,8 +2034,7 @@
       "explproof": false,
       "sku_count": 5,
       "description": "Светильники PLG категории Офисный светильник 1200*600. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-1200-600",
@@ -2134,8 +2059,7 @@
       "explproof": false,
       "sku_count": 57,
       "description": "Светильники PLG категории Офисный светильник с равномерной засветкой 1200*600. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-120",
@@ -2161,8 +2085,7 @@
       "explproof": false,
       "sku_count": 15,
       "description": "Светильники PLG категории Линейное соединение = 120р.. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-",
@@ -2188,8 +2111,7 @@
       "explproof": false,
       "sku_count": 20,
       "description": "Светильники PLG категории Линейные светильники прямоугольного сечения (стандарт). Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-",
@@ -2215,8 +2137,7 @@
       "explproof": false,
       "sku_count": 12,
       "description": "Светильники PLG категории Линейные светильники сечения трапеция. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-track-line",
@@ -2242,8 +2163,7 @@
       "explproof": false,
       "sku_count": 3,
       "description": "Светильники PLG категории Акцентный светильник серии TRACK LINE. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-3---------------------------track",
@@ -2269,8 +2189,7 @@
       "explproof": false,
       "sku_count": 14,
       "description": "Светильники PLG категории Акцентный 3-х фазный светильник серии TRACK. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-",
@@ -2296,8 +2215,7 @@
       "explproof": false,
       "sku_count": 9,
       "description": "Светильники PLG категории Промышленный светильник (алюминиевый корпус). Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-prom-r",
@@ -2323,8 +2241,7 @@
       "explproof": false,
       "sku_count": 27,
       "description": "Светильники PLG категории Круглый Промышленный светильник серии PROM R. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-",
@@ -2350,8 +2267,7 @@
       "explproof": false,
       "sku_count": 18,
       "description": "Светильники PLG категории Светильники для подсобных и технических помещений ЖКХ. Российский производитель, гарантия 5 лет.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "aruna-nevis",
@@ -2378,8 +2294,7 @@
       "sku_count": 36,
       "price_from": 5060,
       "description": "Линейный промышленный светильник для промышленных объектов. IP66, широкий диапазон крепления. Применение: производство, склады, цеха.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-trivor",
@@ -2406,8 +2321,7 @@
       "sku_count": 216,
       "price_from": 25960,
       "description": "",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-street",
@@ -2435,8 +2349,7 @@
       "sku_count": 15,
       "price_from": 9770,
       "description": "Консольный уличный светильник для дорог и территорий. IP65, IK08, закалённое стекло. Применение: дороги, парковки, территории предприятий.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-ultar",
@@ -2463,8 +2376,7 @@
       "sku_count": 114,
       "price_from": 21050,
       "description": "Уличный светильник повышенной защиты. IP66, IK08. Применение: промышленные территории с повышенными требованиями к защите.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "aruna-inter",
@@ -2490,8 +2402,7 @@
       "sku_count": 8,
       "price_from": 9690,
       "description": "Линейный интерьерный светильник. IP20. Применение: офисы, торговые помещения, административные здания.",
-      "tags": [],
-      "url": "https://aruna-led.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-of-595",
@@ -2516,8 +2427,7 @@
       "explproof": false,
       "sku_count": 7,
       "description": "Офисный встраиваемый светильник 595×595 мм. IP20. Применение: офисы, административные здания, торговые помещения.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-of",
@@ -2542,8 +2452,7 @@
       "explproof": false,
       "sku_count": 37,
       "description": "Серия PLG OF от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-of-595-1200",
@@ -2568,8 +2477,7 @@
       "explproof": false,
       "sku_count": 4,
       "description": "Офисный встраиваемый светильник 595×595 мм. IP20. Применение: офисы, административные здания, торговые помещения.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-of-595-180",
@@ -2594,8 +2502,7 @@
       "explproof": false,
       "sku_count": 4,
       "description": "Офисный встраиваемый светильник 595×595 мм. IP20. Применение: офисы, административные здания, торговые помещения.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-of-rail",
@@ -2620,8 +2527,7 @@
       "explproof": false,
       "sku_count": 8,
       "description": "Серия PLG OF RAIL от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line-slim",
@@ -2646,8 +2552,7 @@
       "explproof": false,
       "sku_count": 22,
       "description": "Серия PLG Line Slim от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line-750",
@@ -2672,8 +2577,7 @@
       "explproof": false,
       "sku_count": 4,
       "description": "Серия PLG Line 750 от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line-1000",
@@ -2698,8 +2602,7 @@
       "explproof": false,
       "sku_count": 5,
       "description": "Серия PLG Line 1000 от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line-1130",
@@ -2724,8 +2627,7 @@
       "explproof": false,
       "sku_count": 2,
       "description": "Серия PLG Line 1130 от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line",
@@ -2750,8 +2652,7 @@
       "explproof": false,
       "sku_count": 8,
       "description": "Серия PLG Line от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line-288led",
@@ -2776,8 +2677,7 @@
       "explproof": false,
       "sku_count": 3,
       "description": "Серия PLG Line 288led от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line-w",
@@ -2802,8 +2702,7 @@
       "explproof": false,
       "sku_count": 12,
       "description": "Серия PLG Line W от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line-lens",
@@ -2828,8 +2727,7 @@
       "explproof": false,
       "sku_count": 8,
       "description": "Серия PLG Line Lens от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-track-line",
@@ -2854,8 +2752,7 @@
       "explproof": false,
       "sku_count": 3,
       "description": "Серия PLG TRACK LINE от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-track",
@@ -2879,8 +2776,7 @@
       "explproof": false,
       "sku_count": 3,
       "description": "Серия PLG TRACK от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-of-dl",
@@ -2903,8 +2799,7 @@
       "explproof": false,
       "sku_count": 5,
       "description": "Серия PLG OF DL от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-pr-line",
@@ -2929,8 +2824,7 @@
       "explproof": false,
       "sku_count": 7,
       "description": "Промышленный светильник подвесного монтажа. Применение: цеха, склады, производственные помещения.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-prom-r",
@@ -2954,8 +2848,7 @@
       "explproof": false,
       "sku_count": 10,
       "description": "Промышленный светильник подвесного монтажа. Применение: цеха, склады, производственные помещения.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-street",
@@ -2978,8 +2871,7 @@
       "explproof": false,
       "sku_count": 9,
       "description": "Серия PLG Street от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-street-pro",
@@ -3003,8 +2895,7 @@
       "explproof": false,
       "sku_count": 7,
       "description": "Серия PLG Street PRO от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-llo-305",
@@ -3026,8 +2917,7 @@
       "explproof": false,
       "sku_count": 3,
       "description": "Серия PLG LLO 305 от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-llo-380",
@@ -3050,8 +2940,7 @@
       "explproof": false,
       "sku_count": 2,
       "description": "Серия PLG LLO 380 от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-of-sb",
@@ -3076,8 +2965,7 @@
       "explproof": false,
       "sku_count": 2,
       "description": "Серия PLG OF SB от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-line-med",
@@ -3102,8 +2990,7 @@
       "explproof": false,
       "sku_count": 2,
       "description": "Серия PLG Line Med от производителя PLG. Применение: офисные светильники.",
-      "tags": [],
-      "url": "https://www.plgled.ru/"
+      "tags": []
     },
     {
       "id": "plg-plg-llo-line-em",
@@ -3125,8 +3012,484 @@
       "explproof": false,
       "sku_count": 2,
       "description": "Серия PLG LLO Line EM от производителя PLG. Применение: офисные светильники.",
+      "tags": []
+    },
+    {
+      "id": "ledel-street-x1",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
       "tags": [],
-      "url": "https://www.plgled.ru/"
+      "series": "Street X1",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 50,
+      "power_max": 170,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Ш",
+        "Г",
+        "Д",
+        "К"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 12,
+      "description": "Консольный уличный светильник. Применение: автомобильные дороги, городские улицы, площади и парки."
+    },
+    {
+      "id": "ledel-street-x1-pro",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "Street X1 Pro",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 124,
+      "power_max": 250,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Ш",
+        "Г",
+        "Д",
+        "К"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Консольный уличный светильник повышенной мощности. Применение: автомобильные дороги, городские улицы, внешнее освещение прилегающих территорий."
+    },
+    {
+      "id": "ledel-street-x120",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "Street X1/2.0",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 50,
+      "power_max": 200,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Ш",
+        "Г",
+        "Д",
+        "К"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "description": "Обновлённый консольный уличный светильник. Применение: дороги, улицы, территории предприятий."
+    },
+    {
+      "id": "ledel-l-industry-ii",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-industry II",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 60,
+      "power_max": 200,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120",
+        "Г70",
+        "К90"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 18,
+      "description": "Промышленный светильник с усиленной конвекцией. Применение: производственные помещения, цеха, склады."
+    },
+    {
+      "id": "ledel-l-industry-ii-pro",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-industry II Pro",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 100,
+      "power_max": 300,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120",
+        "Г70"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 12,
+      "description": "Промышленный светильник усиленной серии. Применение: высокопролётные производственные помещения."
+    },
+    {
+      "id": "ledel-l-industry-extreme",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-industry Extreme",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 80,
+      "power_max": 250,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Д120"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Высокотемпературный промышленный светильник. Применение: горячие цеха, металлургия, объекты с экстремальными условиями."
+    },
+    {
+      "id": "ledel-l-industry-turbine",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-industry Turbine",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 50,
+      "power_max": 200,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120",
+        "К60"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 16,
+      "description": "Профильный линейный промышленный светильник. Применение: производственные помещения, конвейерные линии."
+    },
+    {
+      "id": "ledel-l-industry-turbine-hb",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-industry Turbine HB",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 80,
+      "power_max": 300,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "description": "Модульный профильный промышленный светильник. Применение: высокие пролёты, склады, производство."
+    },
+    {
+      "id": "ledel-l-industry-new",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-industry NEW",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 30,
+      "power_max": 150,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120",
+        "Г70",
+        "К90"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 20,
+      "description": "Линейный промышленный светильник нового поколения. Применение: производство, склады, АЗС."
+    },
+    {
+      "id": "ledel-l-pixel",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-pixel",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 40,
+      "power_max": 120,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Модульный промышленный светильник. Применение: производственные помещения."
+    },
+    {
+      "id": "ledel-l-lego-ii",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-lego II",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 50,
+      "power_max": 150,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120",
+        "Г70"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "description": "Модульный профильный светильник. Применение: производственные и складские помещения."
+    },
+    {
+      "id": "ledel-l-banner-600",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-banner 600",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 100,
+      "power_max": 600,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 6,
+      "description": "Промышленный светильник с активным охлаждением для сверхмощных установок."
+    },
+    {
+      "id": "ledel-l-parking",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-parking",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 20,
+      "power_max": 60,
+      "ip": [
+        "IP54"
+      ],
+      "kss": [
+        "Д120"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 8,
+      "description": "Светильник для низких потолков и паркингов. Применение: подземные паркинги, тоннели, низкие помещения."
+    },
+    {
+      "id": "ledel-l-sub",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-sub",
+      "category": "industrial",
+      "category_name": "Промышленное освещение",
+      "power_min": 15,
+      "power_max": 50,
+      "ip": [
+        "IP65"
+      ],
+      "kss": [
+        "Д120"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 6,
+      "description": "Металлическая арктика для суровых условий. Применение: северные объекты, низкотемпературные среды."
+    },
+    {
+      "id": "ledel-l-fusion",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-fusion",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 80,
+      "ip": [
+        "IP20",
+        "IP40"
+      ],
+      "kss": [
+        "Д90",
+        "Д120"
+      ],
+      "color_temp": [
+        "3000",
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 24,
+      "description": "Профильный линейный светильник для коммерческих объектов. Применение: офисы, торговые помещения, административные здания."
+    },
+    {
+      "id": "ledel-l-fusion-mg",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-fusion MG",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 20,
+      "power_max": 60,
+      "ip": [
+        "IP20"
+      ],
+      "kss": [
+        "Д90"
+      ],
+      "color_temp": [
+        "3000",
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 12,
+      "description": "Линейный светильник с микропризматическим рассеивателем. Применение: офисы, учебные учреждения."
+    },
+    {
+      "id": "ledel-l-trade-ii",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-trade II",
+      "category": "indoor",
+      "category_name": "Внутреннее освещение",
+      "power_min": 30,
+      "power_max": 100,
+      "ip": [
+        "IP20",
+        "IP40"
+      ],
+      "kss": [
+        "Д90",
+        "Д120",
+        "К40"
+      ],
+      "color_temp": [
+        "3000",
+        "4000"
+      ],
+      "explproof": false,
+      "sku_count": 20,
+      "description": "Трековый светильник для торговых помещений. Применение: магазины, торговые центры, галереи."
+    },
+    {
+      "id": "ledel-l-street",
+      "brand": "LEDEL",
+      "lm_min": null,
+      "lm_max": null,
+      "tags": [],
+      "series": "L-street",
+      "category": "outdoor",
+      "category_name": "Наружное освещение",
+      "power_min": 30,
+      "power_max": 80,
+      "ip": [
+        "IP66"
+      ],
+      "kss": [
+        "Ш",
+        "Г",
+        "Д"
+      ],
+      "color_temp": [
+        "4000",
+        "5000"
+      ],
+      "explproof": false,
+      "sku_count": 10,
+      "description": "Консольный профильный уличный светильник. Применение: городские улицы, дворовые территории, парковки."
     }
   ]
 }
