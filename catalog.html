@@ -476,14 +476,33 @@ function getImgPath(s){
   }
   // ARUNA: files named ARUNA_TYPE.jpg
   if(s.brand==='ARUNA LED'){
-    const arMap={'ARLINE':'ARUNA_ARLINE','ARSLIM':'ARUNA_ARSLIM','SLIM':'ARUNA_SLIM',
-      'CONTOUR':'ARUNA_CONTOUR_S1','LINE':'ARUNA_LINE','NEVIS':'ARUNA_PROLIGHT',
-      'TRIVOR':'ARUNA_PROLIGHT_MINI','STREET':'ARUNA_STREET_ARUNA','INTER':'ARUNA_OFFICE_ARUNA',
-      'ULTAR':'ARUNA_STREET_ARUNA','LACE  монохром':'ARUNA_LINE','LACE цветное управляемое':'ARUNA_MEDIA'};
+    const arMap={
+      'ARLINE':'ARUNA_ARLINE','ARSLIM':'ARUNA_ARSLIM','SLIM':'ARUNA_SLIM',
+      'CONTOUR':'ARUNA_CONTOUR_S1','CONTOUR S1':'ARUNA_CONTOUR_S1',
+      'CONTOUR S2':'ARUNA_CONTOUR_S2','CONTOUR S3':'ARUNA_CONTOUR_S3',
+      'LINE':'ARUNA_LINE','NEVIS':'ARUNA_PROLIGHT',
+      'TRIVOR':'ARUNA_FLOOD_LARGE','STREET':'ARUNA_STREET_ARUNA','INTER':'ARUNA_OFFICE_ARUNA',
+      'ULTAR':'ARUNA_WALL_WASHER','LACE  монохром':'ARUNA_LINE','LACE цветное управляемое':'ARUNA_MEDIA',
+      'Монохром АХП':'ARUNA_ARSLIM','Монохром управляемый':'ARUNA_CONTOUR_S1',
+      'Цветное управляемое':'ARUNA_MEDIA','Уличное':'ARUNA_STREET_ARUNA',
+      'Промышленное':'ARUNA_PROLIGHT','Интерьерное':'ARUNA_OFFICE_ARUNA'
+    };
     if(arMap[s.series]) return 'images/'+arMap[s.series]+'.jpg';
   }
   // Street X1/2.0 special case
   if(s.series==='Street X1/2.0') return 'images/Street_X1_2.0.jpg';
+  // FEREKS special cases (series names that don't transliterate to existing filenames)
+  const fxMap={
+    'Wheel':'WHEEL','ДСО 2.0':'DSO_2.0',
+    'ДВО':'DSO','ДСБ':'DSB','ССВ':'DSO','ДПП':'Ex-DPP',
+    'ССК':'CCK','ДТУ':'DKU',
+    'FBL':'FHB','FHL':'FHB','FLL':'FDL','FDBB':'FDL',
+    'FHB для высоких температур':'FHB_Extreme','FFL-sport':'FFL',
+    'ALF-A2':'FLA','ALF-A3':'FLA','ALF-C1':'FLA',
+    'ALF-E1':'FLA','ALF-G1':'FLA','AMG':'FLA',
+    'ALF-F1':'FLA','ALF-F2':'FLA','FSP':'FLA'
+  };
+  if(s.brand==='FEREKS' && fxMap[s.series]) return 'images/'+fxMap[s.series]+'.jpg';
   // Default: clean name
   const RU={А:'A',Б:'B',В:'V',Г:'G',Д:'D',Е:'E',Ж:'Zh',З:'Z',И:'I',К:'K',Л:'L',М:'M',Н:'N',О:'O',П:'P',Р:'R',С:'S',Т:'T',У:'U',Ф:'F',Х:'H',Э:'E',Ю:'Yu',Я:'Ya',Ё:'E'};
   let clean=s.series.replace(/\s+/g,'_').replace(/\//g,'_').replace(/\./g,'')
