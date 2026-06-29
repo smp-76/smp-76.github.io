@@ -452,6 +452,24 @@ footer p{font-size:12px;color:var(--gray)}
   .fu,.fd{opacity:1;transform:none;transition:none}
   *{animation-duration:.01ms!important}
 }
+
+.faq-item{border-bottom:1px solid var(--border)}
+.faq-item:first-child{border-top:1px solid var(--border)}
+.faq-q{
+  width:100%;display:flex;align-items:center;justify-content:space-between;
+  padding:16px 0;background:none;border:none;color:#fff;
+  font-size:15px;font-weight:500;text-align:left;cursor:pointer;
+  font-family:'Inter',sans-serif;transition:color .2s;gap:16px;
+}
+.faq-q:hover{color:var(--blue2)}
+.faq-arr{font-size:18px;color:var(--gold);flex-shrink:0;transition:transform .2s}
+.faq-a{
+  font-size:14px;color:var(--gray);line-height:1.75;
+  padding:0 0 16px;display:none;max-width:780px;
+}
+.faq-item.open .faq-a{display:block}
+.faq-item.open .faq-arr{transform:rotate(180deg)}
+
 </style>
 </head>
 <body>
@@ -468,7 +486,7 @@ footer p{font-size:12px;color:var(--gray)}
     <li><a href="catalog.html">Каталог</a></li>
     <li><a href="#contact">Контакты</a></li>
   </ul>
-  <a href="#contact" class="nc">Получить расчёт</a>
+  <a href="#contact" class="nc">Отправить ТЗ</a>
   <div class="burger" id="burger" onclick="toggleNav()"><span></span><span></span><span></span></div>
 </nav>
 
@@ -479,16 +497,16 @@ footer p{font-size:12px;color:var(--gray)}
   <div class="hero-vignette"></div>
   <div class="hero-bottom"></div>
   <div class="hero-content">
-    <div class="eyebrow">Инжиниринговая компания · 15 лет на рынке</div>
+    <div class="eyebrow">Поставщик светодиодного оборудования · 15 лет на рынке</div>
     <h1>
       <span class="line">Светодиодное</span>
       <span class="line">освещение для <em>промышленных</em></span>
       <span class="line">объектов под ключ</span>
     </h1>
-    <p class="hero-sub">Проектирование, поставка и монтаж. Работаем с объектами повышенной сложности: нефтегаз, производство, транспортная инфраструктура.</p>
+    <p class="hero-sub">Работаем с проектными организациями, генподрядчиками и промышленными предприятиями. Подбор по ТЗ, светотехнический расчёт, поставка с заводов-изготовителей.</p>
     <div class="hero-actions">
-      <a href="#contact" class="btn-p">Получить расчёт</a>
-      <a href="#clients" class="btn-g">Наши заказчики</a>
+      <a href="#contact" class="btn-p">Отправить ТЗ</a>
+      <a href="catalog.html" class="btn-g">Каталог оборудования</a>
     </div>
   </div>
   <div class="scroll-hint">Листать</div>
@@ -506,16 +524,64 @@ footer p{font-size:12px;color:var(--gray)}
 
 <div class="beam-divider"></div>
 
+
+<!-- ЗАДАЧИ -->
+<section style="background:var(--navy);padding:72px 0 0">
+  <div class="container">
+    <div class="slabel fu">С чем обращаются</div>
+    <h2 class="fu">Задачи, которые мы решаем</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:36px" class="fu">
+
+      <a href="index.html#contact" style="text-decoration:none;display:block;padding:24px;background:var(--navy2);border:1px solid var(--border);border-radius:4px;transition:border-color .2s" onmouseover="this.style.borderColor='rgba(30,95,216,.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,.07)'">
+        <div style="font-size:20px;margin-bottom:12px">📋</div>
+        <div style="font-family:'Oswald',sans-serif;font-size:16px;color:#fff;margin-bottom:8px">Подбор по ТЗ или спецификации</div>
+        <div style="font-size:13px;color:var(--gray);line-height:1.6">Пришлите техническое задание или список позиций — подберём оборудование и подготовим КП.</div>
+      </a>
+
+      <a href="index.html#contact" style="text-decoration:none;display:block;padding:24px;background:var(--navy2);border:1px solid var(--border);border-radius:4px;transition:border-color .2s" onmouseover="this.style.borderColor='rgba(30,95,216,.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,.07)'">
+        <div style="font-size:20px;margin-bottom:12px">🔢</div>
+        <div style="font-family:'Oswald',sans-serif;font-size:16px;color:#fff;margin-bottom:8px">Светотехнический расчёт</div>
+        <div style="font-size:13px;color:var(--gray);line-height:1.6">Расчёт уровней освещённости по СП 52.13330, ГОСТ Р 55710. Выдаём файл DIALux или сводную таблицу.</div>
+      </a>
+
+      <a href="catalog.html" style="text-decoration:none;display:block;padding:24px;background:var(--navy2);border:1px solid var(--border);border-radius:4px;transition:border-color .2s" onmouseover="this.style.borderColor='rgba(30,95,216,.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,.07)'">
+        <div style="font-size:20px;margin-bottom:12px">🔄</div>
+        <div style="font-family:'Oswald',sans-serif;font-size:16px;color:#fff;margin-bottom:8px">Подбор аналогов импортного оборудования</div>
+        <div style="font-size:13px;color:var(--gray);line-height:1.6">Подбираем российские аналоги Philips, OSRAM, GE с сопоставимыми характеристиками.</div>
+      </a>
+
+      <a href="index.html#contact" style="text-decoration:none;display:block;padding:24px;background:var(--navy2);border:1px solid var(--border);border-radius:4px;transition:border-color .2s" onmouseover="this.style.borderColor='rgba(30,95,216,.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,.07)'">
+        <div style="font-size:20px;margin-bottom:12px">🏗️</div>
+        <div style="font-family:'Oswald',sans-serif;font-size:16px;color:#fff;margin-bottom:8px">Поддержка проектных организаций</div>
+        <div style="font-size:13px;color:var(--gray);line-height:1.6">Предоставляем технические паспорта, BIM-файлы, IES-файлы, чертежи для включения в проект.</div>
+      </a>
+
+      <a href="index.html#contact" style="text-decoration:none;display:block;padding:24px;background:var(--navy2);border:1px solid var(--border);border-radius:4px;transition:border-color .2s" onmouseover="this.style.borderColor='rgba(30,95,216,.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,.07)'">
+        <div style="font-size:20px;margin-bottom:12px">⚡</div>
+        <div style="font-family:'Oswald',sans-serif;font-size:16px;color:#fff;margin-bottom:8px">Взрывозащищённое исполнение (Ex)</div>
+        <div style="font-size:13px;color:var(--gray);line-height:1.6">Подбор светильников для зон 1, 2, 21, 22 по классификации ATEX/IECEx. Серии Ex-FHB, Ex-FPL, Ex-ДКУ и др.</div>
+      </a>
+
+      <a href="index.html#contact" style="text-decoration:none;display:block;padding:24px;background:var(--navy2);border:1px solid var(--border);border-radius:4px;transition:border-color .2s" onmouseover="this.style.borderColor='rgba(30,95,216,.4)'" onmouseout="this.style.borderColor='rgba(255,255,255,.07)'">
+        <div style="font-size:20px;margin-bottom:12px">📦</div>
+        <div style="font-family:'Oswald',sans-serif;font-size:16px;color:#fff;margin-bottom:8px">Поставка в сжатые сроки</div>
+        <div style="font-size:13px;color:var(--gray);line-height:1.6">Серийные позиции — от 5 рабочих дней. Нестандартные исполнения — по согласованию с заводом.</div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
 <!-- ABOUT -->
 <section class="about" id="about">
   <div class="container">
     <div class="about-grid">
       <div class="about-text fu">
         <div class="slabel">О компании</div>
-        <h2>Не поставщик. Инженерный партнёр.</h2>
+        <h2>Что мы делаем</h2>
         <p>СМП-76: инжиниринговая компания, специализирующаяся на светодиодном освещении для промышленных предприятий, транспортной инфраструктуры и объектов повышенной сложности.</p>
-        <p>Мы <strong>не продаём светильники из каталога</strong>. Мы изучаем задачу, выполняем светотехнический расчёт, подбираем оборудование под конкретные условия объекта и сопровождаем проект от ТЗ до ввода в эксплуатацию.</p>
-        <p>Прямые партнёрские отношения с российскими заводами-производителями позволяют <strong>адаптировать оборудование под нестандартные требования</strong> и полностью закрывают санкционные риски.</p>
+        <p>Принимаем технические задания и спецификации. Подбираем оборудование под конкретный объект, выполняем светотехнический расчёт, оформляем коммерческое предложение.</p>
+        <p>Прямые договоры с заводами-изготовителями. Оборудование сертифицировано по ТР ЕАЭС. <strong>Сроки поставки — от 5 рабочих дней</strong> в зависимости от объёма и наличия на складе.</p>
         <div class="about-tags">
           <span class="tag">Нефтегаз</span>
           <span class="tag">Метрополитен</span>
@@ -544,23 +610,23 @@ footer p{font-size:12px;color:var(--gray)}
 <section class="services" id="services">
   <div class="container">
     <div class="slabel fu">Услуги</div>
-    <h2 class="fu">Подбор и поставка оборудования</h2>
-    <p class="sdesc fu">Выполняем светотехнические расчёты, подбираем оборудование под конкретный объект и организуем прямую поставку с российских заводов.</p>
+    <h2 class="fu">Что мы делаем для вашего проекта</h2>
+    <p class="sdesc fu">Принимаем ТЗ и спецификации в любом формате. Результат — коммерческое предложение с подбором оборудования, расчётом и сроками поставки.</p>
     <div class="bento fu">
       <div class="bcard">
         <svg class="bcard-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="20" cy="20" r="16"/><circle cx="20" cy="20" r="7"/><line x1="20" y1="4" x2="20" y2="13"/><line x1="20" y1="27" x2="20" y2="36"/><line x1="4" y1="20" x2="13" y2="20"/><line x1="27" y1="20" x2="36" y2="20"/><line x1="7.7" y1="7.7" x2="14.2" y2="14.2"/><line x1="25.8" y1="25.8" x2="32.3" y2="32.3"/></svg>
         <h3>Светотехнический расчёт</h3>
-        <p>Расчёт уровней освещённости по нормам СП, ГОСТ, ПУЭ. Оценка энергопотребления и срока окупаемости до начала работ.</p>
+        <p>По нормам СП 52.13330, ГОСТ Р 55710, ПУЭ. Выдаём расчётный файл DIALux или таблицу с уровнями освещённости по зонам.</p>
       </div>
       <div class="bcard">
         <svg class="bcard-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="4" y="8" width="32" height="24" rx="2"/><line x1="4" y1="15" x2="36" y2="15"/><line x1="12" y1="15" x2="12" y2="32"/><circle cx="8" cy="11.5" r="1.5" fill="currentColor" stroke="none"/><circle cx="13.5" cy="11.5" r="1.5" fill="currentColor" stroke="none"/><circle cx="19" cy="11.5" r="1.5" fill="currentColor" stroke="none"/><line x1="18" y1="22" x2="28" y2="22"/><line x1="18" y1="27" x2="25" y2="27"/></svg>
         <h3>Проектирование</h3>
-        <p>Разработка рабочей документации. Согласование с проектными институтами. Адаптация серийных изделий под ТЗ заказчика.</p>
+        <p>Подготовка спецификации по форме заказчика. Подбор позиций под раздел ЭО проекта. Работаем с проектными институтами напрямую.</p>
       </div>
       <div class="bcard">
         <svg class="bcard-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M20 4L8 12v24h24V12L20 4z"/><rect x="14" y="20" width="12" height="16"/><line x1="17" y1="20" x2="17" y2="36"/><line x1="23" y1="20" x2="23" y2="36"/></svg>
         <h3>Подбор оборудования</h3>
-        <p>Под конкретные условия: взрывозащита, IP-класс, диапазон температур. Только российские производители с прямыми контрактами.</p>
+        <p>По параметрам: IP, IK, КСС, цветовая температура, CRI, мощность, тип крепления, взрывозащитное исполнение (Ex). Прямые контракты с заводами.</p>
       </div>
       <div class="bcard wide accent">
         <svg class="bcard-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="3" y="12" width="34" height="20" rx="2"/><path d="M13 12V9a7 7 0 0114 0v3"/><circle cx="20" cy="22" r="4"/><line x1="20" y1="18" x2="20" y2="16"/></svg>
@@ -645,12 +711,12 @@ footer p{font-size:12px;color:var(--gray)}
     <div class="slabel fu">Почему СМП-76</div>
     <h2 class="fu">Чем мы отличаемся от посредников</h2>
     <div class="wgrid">
-      <div class="wcard fu"><div class="wn">01</div><h3>Инженерная экспертиза, а не продажа из каталога</h3><p>Светотехнический расчёт под конкретный объект. Подбираем не то, что есть на складе, а то, что решает задачу.</p></div>
-      <div class="wcard fu"><div class="wn">02</div><h3>Прямые поставки с российских заводов</h3><p>Без цепочки посредников. Стабильные поставки, защита от санкций, реальные цены без наценок дилеров.</p></div>
-      <div class="wcard fu"><div class="wn">03</div><h3>Опыт на объектах повышенной сложности</h3><p>Атомный флот, нефтепереработка, метрополитен, федеральные трассы. Знаем требования и умеем их выполнять.</p></div>
-      <div class="wcard fu"><div class="wn">04</div><h3>Один партнёр на всём проекте</h3><p>От ТЗ до ввода в эксплуатацию: одна ответственная сторона. Не нужно координировать субподрядчиков.</p></div>
-      <div class="wcard fu"><div class="wn">05</div><h3>Доработка оборудования под ваши требования</h3><p>Нестандартные технические требования: решаем напрямую с производителем. Без компромиссов.</p></div>
-      <div class="wcard fu"><div class="wn">06</div><h3>Гарантия 5 лет без посредников</h3><p>Гарантийные обязательства напрямую от завода. Без отписок и перекладывания ответственности.</p></div>
+      <div class="wcard fu"><div class="wn">01</div><h3>Подбор по параметрам, а не по прайсу</h3><p>Принимаем ТЗ в любом формате. Подбираем серию и модификацию под конкретный объект. Сравниваем аналоги если нужна альтернатива.</p></div>
+      <div class="wcard fu"><div class="wn">02</div><h3>Поставка напрямую с завода</h3><p>Прямые договоры с FEREKS, LEDEL, LUXCORE, ARUNA LED, PLG. Оборудование с заводскими сертификатами. Цены без дилерской наценки.</p></div>
+      <div class="wcard fu"><div class="wn">03</div><h3>Опыт на режимных и технически сложных объектах</h3><p>В числе реализованных объектов: ФГУП «Атомфлот», Рязанский НПЗ, метро Москвы (Стромынка, Нижняя Масловка), ЦКАД-1 и ЦКАД-3.</p></div>
+      <div class="wcard fu"><div class="wn">04</div><h3>Один контакт от запроса до поставки</h3><p>От ТЗ до ввода в эксплуатацию: одна ответственная сторона. Не нужно координировать субподрядчиков.</p></div>
+      <div class="wcard fu"><div class="wn">05</div><h3>Нестандартные исполнения под ТЗ</h3><p>Нестандартные технические требования: решаем напрямую с производителем. Без компромиссов.</p></div>
+      <div class="wcard fu"><div class="wn">06</div><h3>Гарантия 5 лет от завода-изготовителя</h3><p>Гарантийные обязательства подтверждены договором с заводом. Сервисное обслуживание без посредников.</p></div>
     </div>
   </div>
 </section>
@@ -681,7 +747,7 @@ footer p{font-size:12px;color:var(--gray)}
           <div style="padding:10px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(30,95,216,.15);border-radius:3px;font-size:12px;font-weight:600;color:#3B7AF0;text-align:center">ARUNA LED</div>
           <div style="padding:10px 14px;background:rgba(255,255,255,.04);border:1px solid rgba(30,95,216,.15);border-radius:3px;font-size:12px;font-weight:600;color:#3B7AF0;text-align:center">PLG</div>
         </div>
-        <a href="catalog.html" class="btn-p" style="width:100%;text-align:center;display:block">Открыть каталог</a>
+        <a href="catalog.html" class="btn-p" style="width:100%;text-align:center;display:block">Открыть каталог →</a>
       </div>
       </div>
     </div>
@@ -691,12 +757,80 @@ footer p{font-size:12px;color:var(--gray)}
 <div class="ctaband">
   <div class="cta-inner">
     <div>
-      <h2>Есть объект или техническое задание?</h2>
-      <p>Сделаем расчёт и подберём оборудование. Бесплатно, без обязательств.</p>
+      <h2>Есть ТЗ или спецификация?</h2>
+      <p>Пришлите ТЗ, спецификацию или перечень позиций — подберём оборудование и выставим КП в течение рабочего дня.</p>
     </div>
-    <a href="#contact" class="btn-w">Получить расчёт</a>
+    <a href="#contact" class="btn-w">Отправить ТЗ</a>
   </div>
 </div>
+
+
+<!-- FAQ -->
+<section style="background:var(--navy2);padding:72px 0" id="faq">
+  <div class="container">
+    <div class="slabel fu">FAQ</div>
+    <h2 class="fu">Частые вопросы</h2>
+    <div style="display:flex;flex-direction:column;gap:2px;margin-top:36px" class="fu" id="faqList">
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Работаете ли вы с проектными организациями?
+          <span class="faq-arr">▾</span>
+        </button>
+        <div class="faq-a">Да. Предоставляем технические паспорта, IES-файлы, опросные листы и чертежи для раздела ЭО. Возможна проработка спецификации по форме заказчика. Для сотрудничества на постоянной основе — договор и персональный менеджер.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Какой минимальный заказ?
+          <span class="faq-arr">▾</span>
+        </button>
+        <div class="faq-a">Минимального количества нет. Работаем как с единичными позициями для проб, так и с крупными партиями. Условия поставки — в договоре.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Есть ли сертификаты на оборудование?
+          <span class="faq-arr">▾</span>
+        </button>
+        <div class="faq-a">Всё оборудование сертифицировано по ТР ЕАЭС 004/2011 и ТР ЕАЭС 020/2011. По запросу предоставляем декларации о соответствии, протоколы испытаний и сертификаты.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Можно ли получить образцы перед заказом?
+          <span class="faq-arr">▾</span>
+        </button>
+        <div class="faq-a">Да. Предоставляем образцы по согласованию. Уточняйте по телефону или почте — стоимость и сроки зависят от серии и производителя.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Какие условия гарантии?
+          <span class="faq-arr">▾</span>
+        </button>
+        <div class="faq-a">Гарантийный срок — 5 лет или 50 000 часов работы. Гарантия производителя подтверждена заводской документацией. При гарантийном случае — замена или ремонт через завод-изготовитель без посредников.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Выполняете ли вы светотехнический расчёт?
+          <span class="faq-arr">▾</span>
+        </button>
+        <div class="faq-a">Да. Выполняем расчёт в DIALux по вашему ТЗ. Результат — отчёт с уровнями освещённости по зонам, сечениями и схемой расстановки. Расчёт бесплатен при условии поставки.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Как быстро подготовите коммерческое предложение?
+          <span class="faq-arr">▾</span>
+        </button>
+        <div class="faq-a">Для стандартных запросов — в течение одного рабочего дня. Для сложных проектов с подбором и расчётом — до 3 рабочих дней.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
@@ -705,7 +839,7 @@ footer p{font-size:12px;color:var(--gray)}
       <div class="ci fu">
         <div class="slabel">Контакты</div>
         <h2>Свяжитесь с нами</h2>
-        <p>Пришлите ТЗ или описание объекта. Ответим быстро и по делу.</p>
+        <p>Принимаем технические задания, спецификации и запросы на подбор аналогов. Отвечаем в течение рабочего дня с коммерческим предложением или уточняющими вопросами.</p>
         <div class="crow">
           <svg class="cicon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 010 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           <div>
@@ -749,7 +883,7 @@ footer p{font-size:12px;color:var(--gray)}
               <option>Другое</option>
             </select>
           </div>
-          <div class="fg"><label>Описание задачи</label><textarea id="fc" placeholder="Объект, площадь, особые требования (взрывозащита, температурный диапазон и т.д.)..."></textarea></div>
+          <div class="fg"><label>ТЗ, спецификация или описание объекта</label><textarea id="fc" placeholder="Укажите тип объекта, площадь или количество точек, особые требования (IP, Ex, КСС, мощность, высота потолка)..."></textarea></div>
           <button class="fsub" onclick="submitForm()">Отправить запрос</button>
           <p class="fnote">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
         </div>
@@ -763,7 +897,7 @@ footer p{font-size:12px;color:var(--gray)}
 <footer>
   <div class="fi">
     <img id="footer-logo" src="" alt="СМП-76">
-    <p>© 2025 СМП-76. Светодиодное освещение для промышленных объектов</p>
+    <p>© © 2025 СМП-76. Поставка светодиодных светильников для промышленных объектов</p>
     <div class="flinks">
       <a href="mailto:svet@smp-76.ru">svet@smp-76.ru</a>
       <a href="tel:+79262846454">+7 (926) 284 64 54</a>
@@ -967,6 +1101,12 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
     if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}
   });
 });
+
+function toggleFaq(btn){
+  const item=btn.parentElement;
+  item.classList.toggle('open');
+}
+
 </script>
 </body>
 </html>
