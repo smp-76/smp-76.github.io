@@ -1,0 +1,7 @@
+HTML: index.html, catalog.html, series.html
+Images kept: 153
+Black backgrounds cleaned: 49
+Brand logos corrected: ARUNA, FEREKS, LEDEL, LUXCORE, PLG
+FEREKS generic repeated images replaced with exact series images where supplied
+PLG missing product images use PLG logo placeholder
+Missing local image references: 0
