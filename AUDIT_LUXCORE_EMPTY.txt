@@ -1,0 +1,25 @@
+catalog.html: series=133, empty_models=0, luxcore=13
+series.html: series=133, empty_models=0, luxcore=13
+Removed empty series: 22
+- FEREKS: ДКУ 2.0
+- FEREKS: ССВ Lite
+- FEREKS: ССВ STRONG
+- FEREKS: FLT 2.0
+- FEREKS: ССВ 2.0 Base
+- FEREKS: ССВ CLIP-IN
+- FEREKS: FLL Eco
+- FEREKS: FPL RGBW
+- LEDEL: Street X1 2.0
+- LEDEL: L-line mini RGBW
+- LEDEL: L-line mini UD
+- LEDEL: L-line RGBW
+- LEDEL: L-line UD
+- LEDEL: L-line DIM
+- LEDEL: L-industry II AK
+- LEDEL: L-park PILLAR VP
+- LUXCORE: LiteLux
+- LUXCORE: ArchiLong
+- PLG: PLG PROM
+- PLG: PLG PROM S 120
+- PLG: PLG LINE SCH
+- PLG: PLG LINE SCH CRI 90
