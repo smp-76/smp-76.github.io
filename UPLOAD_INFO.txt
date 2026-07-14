@@ -1,0 +1,6 @@
+SMP GitHub clean release
+Files: 138
+Images used by HTML: 130
+Missing source images: 0
+Broken local refs: 1
+Structure: HTML and logos in repository root; product images directly in images/.
